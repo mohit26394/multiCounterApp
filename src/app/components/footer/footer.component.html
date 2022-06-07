@@ -1,0 +1,3 @@
+<footer class="footer-container" [ngClass]="buttonClickedCount >= 10? 'turn-red': ''">
+    <app-button [count]="buttonClickedCount" (btnClicked)="incrementCount()"></app-button>
+</footer>

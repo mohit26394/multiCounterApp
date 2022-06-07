@@ -1,0 +1,3 @@
+<header class="header-container" [ngClass]="buttonClickedCount >= 10? 'turn-red': ''">
+    <app-button [count]="buttonClickedCount" (btnClicked)="incrementCount()"></app-button>
+</header>

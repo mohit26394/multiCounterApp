@@ -1,0 +1,10 @@
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.turn-red{
+    background-color: red;
+}
